@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7950EC8A287E8027005463F0 /* CCTV_ViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7950EC89287E8027005463F0 /* CCTV_ViewerApp.swift */; };
+		7950EC8C287E8027005463F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7950EC8B287E8027005463F0 /* ContentView.swift */; };
+		7950EC8E287E802A005463F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7950EC8D287E802A005463F0 /* Assets.xcassets */; };
+		7950EC92287E802A005463F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7950EC91287E802A005463F0 /* Preview Assets.xcassets */; };
+		7950EC9C287E802A005463F0 /* CCTV_ViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7950EC9B287E802A005463F0 /* CCTV_ViewerTests.swift */; };
+		7950ECA6287E802A005463F0 /* CCTV_ViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7950ECA5287E802A005463F0 /* CCTV_ViewerUITests.swift */; };
+		7950ECA8287E802A005463F0 /* CCTV_ViewerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7950ECA7287E802A005463F0 /* CCTV_ViewerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7950EC98287E802A005463F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7950EC7E287E8027005463F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7950EC85287E8027005463F0;
+			remoteInfo = "CCTV Viewer";
+		};
+		7950ECA2287E802A005463F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7950EC7E287E8027005463F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7950EC85287E8027005463F0;
+			remoteInfo = "CCTV Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7950EC86287E8027005463F0 /* CCTV Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CCTV Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7950EC89287E8027005463F0 /* CCTV_ViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCTV_ViewerApp.swift; sourceTree = "<group>"; };
+		7950EC8B287E8027005463F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7950EC8D287E802A005463F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7950EC8F287E802A005463F0 /* CCTV_Viewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CCTV_Viewer.entitlements; sourceTree = "<group>"; };
+		7950EC91287E802A005463F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7950EC97287E802A005463F0 /* CCTV ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CCTV ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7950EC9B287E802A005463F0 /* CCTV_ViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCTV_ViewerTests.swift; sourceTree = "<group>"; };
+		7950ECA1287E802A005463F0 /* CCTV ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CCTV ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7950ECA5287E802A005463F0 /* CCTV_ViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCTV_ViewerUITests.swift; sourceTree = "<group>"; };
+		7950ECA7287E802A005463F0 /* CCTV_ViewerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCTV_ViewerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7950EC83287E8027005463F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7950EC94287E802A005463F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7950EC9E287E802A005463F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7950EC7D287E8027005463F0 = {
+			isa = PBXGroup;
+			children = (
+				7950EC88287E8027005463F0 /* CCTV Viewer */,
+				7950EC9A287E802A005463F0 /* CCTV ViewerTests */,
+				7950ECA4287E802A005463F0 /* CCTV ViewerUITests */,
+				7950EC87287E8027005463F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7950EC87287E8027005463F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7950EC86287E8027005463F0 /* CCTV Viewer.app */,
+				7950EC97287E802A005463F0 /* CCTV ViewerTests.xctest */,
+				7950ECA1287E802A005463F0 /* CCTV ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7950EC88287E8027005463F0 /* CCTV Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				7950EC89287E8027005463F0 /* CCTV_ViewerApp.swift */,
+				7950EC8B287E8027005463F0 /* ContentView.swift */,
+				7950EC8D287E802A005463F0 /* Assets.xcassets */,
+				7950EC8F287E802A005463F0 /* CCTV_Viewer.entitlements */,
+				7950EC90287E802A005463F0 /* Preview Content */,
+			);
+			path = "CCTV Viewer";
+			sourceTree = "<group>";
+		};
+		7950EC90287E802A005463F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7950EC91287E802A005463F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7950EC9A287E802A005463F0 /* CCTV ViewerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7950EC9B287E802A005463F0 /* CCTV_ViewerTests.swift */,
+			);
+			path = "CCTV ViewerTests";
+			sourceTree = "<group>";
+		};
+		7950ECA4287E802A005463F0 /* CCTV ViewerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7950ECA5287E802A005463F0 /* CCTV_ViewerUITests.swift */,
+				7950ECA7287E802A005463F0 /* CCTV_ViewerUITestsLaunchTests.swift */,
+			);
+			path = "CCTV ViewerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7950EC85287E8027005463F0 /* CCTV Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7950ECAB287E802A005463F0 /* Build configuration list for PBXNativeTarget "CCTV Viewer" */;
+			buildPhases = (
+				7950EC82287E8027005463F0 /* Sources */,
+				7950EC83287E8027005463F0 /* Frameworks */,
+				7950EC84287E8027005463F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CCTV Viewer";
+			productName = "CCTV Viewer";
+			productReference = 7950EC86287E8027005463F0 /* CCTV Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7950EC96287E802A005463F0 /* CCTV ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7950ECAE287E802A005463F0 /* Build configuration list for PBXNativeTarget "CCTV ViewerTests" */;
+			buildPhases = (
+				7950EC93287E802A005463F0 /* Sources */,
+				7950EC94287E802A005463F0 /* Frameworks */,
+				7950EC95287E802A005463F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7950EC99287E802A005463F0 /* PBXTargetDependency */,
+			);
+			name = "CCTV ViewerTests";
+			productName = "CCTV ViewerTests";
+			productReference = 7950EC97287E802A005463F0 /* CCTV ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7950ECA0287E802A005463F0 /* CCTV ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7950ECB1287E802A005463F0 /* Build configuration list for PBXNativeTarget "CCTV ViewerUITests" */;
+			buildPhases = (
+				7950EC9D287E802A005463F0 /* Sources */,
+				7950EC9E287E802A005463F0 /* Frameworks */,
+				7950EC9F287E802A005463F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7950ECA3287E802A005463F0 /* PBXTargetDependency */,
+			);
+			name = "CCTV ViewerUITests";
+			productName = "CCTV ViewerUITests";
+			productReference = 7950ECA1287E802A005463F0 /* CCTV ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7950EC7E287E8027005463F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					7950EC85287E8027005463F0 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					7950EC96287E802A005463F0 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 7950EC85287E8027005463F0;
+					};
+					7950ECA0287E802A005463F0 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 7950EC85287E8027005463F0;
+					};
+				};
+			};
+			buildConfigurationList = 7950EC81287E8027005463F0 /* Build configuration list for PBXProject "CCTV Viewer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7950EC7D287E8027005463F0;
+			productRefGroup = 7950EC87287E8027005463F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7950EC85287E8027005463F0 /* CCTV Viewer */,
+				7950EC96287E802A005463F0 /* CCTV ViewerTests */,
+				7950ECA0287E802A005463F0 /* CCTV ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7950EC84287E8027005463F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7950EC92287E802A005463F0 /* Preview Assets.xcassets in Resources */,
+				7950EC8E287E802A005463F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7950EC95287E802A005463F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7950EC9F287E802A005463F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7950EC82287E8027005463F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7950EC8C287E8027005463F0 /* ContentView.swift in Sources */,
+				7950EC8A287E8027005463F0 /* CCTV_ViewerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7950EC93287E802A005463F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7950EC9C287E802A005463F0 /* CCTV_ViewerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7950EC9D287E802A005463F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7950ECA8287E802A005463F0 /* CCTV_ViewerUITestsLaunchTests.swift in Sources */,
+				7950ECA6287E802A005463F0 /* CCTV_ViewerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7950EC99287E802A005463F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7950EC85287E8027005463F0 /* CCTV Viewer */;
+			targetProxy = 7950EC98287E802A005463F0 /* PBXContainerItemProxy */;
+		};
+		7950ECA3287E802A005463F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7950EC85287E8027005463F0 /* CCTV Viewer */;
+			targetProxy = 7950ECA2287E802A005463F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7950ECA9287E802A005463F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7950ECAA287E802A005463F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7950ECAC287E802A005463F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CCTV Viewer/CCTV_Viewer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CCTV Viewer/Preview Content\"";
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iPCAMViewer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "site.alwaysboringstudio.ipcam-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7950ECAD287E802A005463F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CCTV Viewer/CCTV_Viewer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CCTV Viewer/Preview Content\"";
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iPCAMViewer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "site.alwaysboringstudio.ipcam-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7950ECAF287E802A005463F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "site.alwaysboringstudio.CCTV-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCTV Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CCTV Viewer";
+			};
+			name = Debug;
+		};
+		7950ECB0287E802A005463F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "site.alwaysboringstudio.CCTV-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CCTV Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CCTV Viewer";
+			};
+			name = Release;
+		};
+		7950ECB2287E802A005463F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "site.alwaysboringstudio.CCTV-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CCTV Viewer";
+			};
+			name = Debug;
+		};
+		7950ECB3287E802A005463F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UGQBX3P3M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "site.alwaysboringstudio.CCTV-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CCTV Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7950EC81287E8027005463F0 /* Build configuration list for PBXProject "CCTV Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7950ECA9287E802A005463F0 /* Debug */,
+				7950ECAA287E802A005463F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7950ECAB287E802A005463F0 /* Build configuration list for PBXNativeTarget "CCTV Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7950ECAC287E802A005463F0 /* Debug */,
+				7950ECAD287E802A005463F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7950ECAE287E802A005463F0 /* Build configuration list for PBXNativeTarget "CCTV ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7950ECAF287E802A005463F0 /* Debug */,
+				7950ECB0287E802A005463F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7950ECB1287E802A005463F0 /* Build configuration list for PBXNativeTarget "CCTV ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7950ECB2287E802A005463F0 /* Debug */,
+				7950ECB3287E802A005463F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7950EC7E287E8027005463F0 /* Project object */;
+}
